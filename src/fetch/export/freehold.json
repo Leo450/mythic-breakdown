@@ -1,0 +1,193 @@
+{
+    "abilities": [
+        {
+            "id": 257426,
+            "name": "Brutal Backhand",
+            "castTime": 2.5,
+            "range": 10,
+            "icon": "ability_rogue_kidneyshot"
+        },
+        {
+            "id": 384575,
+            "name": "Crippling Bite",
+            "castTime": null,
+            "range": 10,
+            "icon": "ability_druid_ferociousbite"
+        },
+        {
+            "id": 257397,
+            "name": "Healing Balm",
+            "castTime": 2.5,
+            "range": 40,
+            "icon": "inv_alchemy_70_potion2"
+        },
+        {
+            "id": 258323,
+            "name": "Infected Wound",
+            "castTime": null,
+            "range": 50000,
+            "icon": "ability_creature_disease_02"
+        },
+        {
+            "id": 258777,
+            "name": "Sea Spout",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "inv_elemental_primal_water"
+        },
+        {
+            "id": 274400,
+            "name": "Duelist Dash",
+            "castTime": 3,
+            "range": 100,
+            "icon": "ability_warrior_charge"
+        },
+        {
+            "id": 274383,
+            "name": "Rat Traps",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "ability_hunter_steeltrap"
+        },
+        {
+            "id": 257739,
+            "name": "Blind Rage",
+            "castTime": 2.2,
+            "range": 40,
+            "icon": "ability_fixated_state_red"
+        },
+        {
+            "id": 257732,
+            "name": "Shattering Bellow",
+            "castTime": 2.75,
+            "range": 5,
+            "icon": "warrior_disruptingshout"
+        },
+        {
+            "id": 274507,
+            "name": "Slippery Suds",
+            "castTime": 2,
+            "range": 40,
+            "icon": "inv_misc_1h_bucket_b_01"
+        },
+        {
+            "id": 257756,
+            "name": "Goin' Bananas",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_warrior_bladestorm"
+        },
+        {
+            "id": 257784,
+            "name": "Frost Blast",
+            "castTime": 3.75,
+            "range": 100,
+            "icon": "spell_frost_frostnova"
+        },
+        {
+            "id": 257899,
+            "name": "Painful Motivation",
+            "castTime": 3,
+            "range": 15,
+            "icon": "spell_holy_painsupression"
+        },
+        {
+            "id": 257870,
+            "name": "Blade Barrage",
+            "castTime": 600,
+            "range": 0,
+            "icon": "ability_warrior_bladestorm"
+        },
+        {
+            "id": 257736,
+            "name": "Thundering Squall",
+            "castTime": 3,
+            "range": 0,
+            "icon": "spell_nature_stormreach"
+        },
+        {
+            "id": 257908,
+            "name": "Oiled Blade",
+            "castTime": 1,
+            "range": 8,
+            "icon": "inv_misc_food_legion_goooil_chunk"
+        }
+    ],
+    "npcs": [
+        {
+            "id": 129602,
+            "name": "Irontide Enforcer",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/792172-irontide-enforcer.jpg"
+        },
+        {
+            "id": 128551,
+            "name": "Irontide Mastiff",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721728-irontide-mastiff.jpg"
+        },
+        {
+            "id": 129788,
+            "name": "Irontide Bonesaw",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721530-irontide-bonesaw.jpg"
+        },
+        {
+            "id": 127111,
+            "name": "Irontide Oarsman",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721540-irontide-oarsman.jpg"
+        },
+        {
+            "id": 129559,
+            "name": "Cutwater Duelist",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721536-cutwater-duelist.jpg"
+        },
+        {
+            "id": 130404,
+            "name": "Vermin Trapper",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721539-vermin-trapper.jpg"
+        },
+        {
+            "id": 129529,
+            "name": "Blacktooth Scrapper",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721554-blacktooth-scrapper.jpg"
+        },
+        {
+            "id": 129547,
+            "name": "Blacktooth Knuckleduster",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721552-blacktooth-knuckleduster.jpg"
+        },
+        {
+            "id": 129526,
+            "name": "Bilge Rat Swabby",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721537-bilge-rat-swabby.jpg"
+        },
+        {
+            "id": 129527,
+            "name": "Bilge Rat Buccaneer",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721545-bilge-rat-buccaneer.jpg"
+        },
+        {
+            "id": 129600,
+            "name": "Bilge Rat Brinescale",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721553-bilge-rat-brinescale.jpg"
+        },
+        {
+            "id": 130012,
+            "name": "Irontide Ravager",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721565-irontide-ravager.jpg"
+        },
+        {
+            "id": 130011,
+            "name": "Irontide Buccaneer",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721569-irontide-buccaneer.jpg"
+        },
+        {
+            "id": 126919,
+            "name": "Irontide Stormcaller",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721564-irontide-stormcaller.jpg"
+        },
+        {
+            "id": 127106,
+            "name": "Irontide Officer",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/721567-irontide-officer.jpg"
+        }
+    ]
+}

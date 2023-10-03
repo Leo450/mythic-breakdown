@@ -1,0 +1,15 @@
+export const DO = {
+    DODGE: 'do:dodge',
+    RUN_AWAY: 'do:run_away',
+    INTERRUPT: 'do:interrupt',
+    DO_NOT_INTERRUPT: 'do:do_not_interrupt',
+    DISPEL: 'do:dispel',
+    OUTHEAL: 'do:outheal',
+    HEAL: 'do:heal',
+    STUN: 'do:stun',
+    DO_NOT_JUMP: 'do:do_not_jump',
+    DEFENSIVE: 'do:defensive',
+    DISENRAGE: 'do:disenrage',
+    FREE: 'do:free',
+    DELAY_DEATH: 'do:delay_death',
+}
