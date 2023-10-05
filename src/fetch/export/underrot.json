@@ -1,0 +1,244 @@
+{
+    "npcs": [
+        {
+            "id": 131436,
+            "name": "Chosen Blood Matron",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/821044-chosen-blood-matron.jpg"
+        },
+        {
+            "id": 130909,
+            "name": "Fetid Maggot",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/821043-fetid-maggot.jpg"
+        },
+        {
+            "id": 133663,
+            "name": "Fanatical Headhunter",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1029345-fanatical-headhunter.jpg"
+        },
+        {
+            "id": 131492,
+            "name": "Devout Blood Priest",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1029346-devout-blood-priest.jpg"
+        },
+        {
+            "id": 132051,
+            "name": "Blood Tick",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 133685,
+            "name": "Befouled Spirit",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/939176-befouled-spirit.jpg"
+        },
+        {
+            "id": 133852,
+            "name": "Living Rot",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1029349-living-rot.jpg"
+        },
+        {
+            "id": 133870,
+            "name": "Diseased Lasher",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/939172-diseased-lasher.jpg"
+        },
+        {
+            "id": 133835,
+            "name": "Feral Bloodswarmer",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1029348-feral-bloodswarmer.jpg"
+        },
+        {
+            "id": 134284,
+            "name": "Fallen Deathspeaker",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/939169-fallen-deathspeaker.jpg"
+        },
+        {
+            "id": 133836,
+            "name": "Reanimated Guardian",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 133912,
+            "name": "Bloodsworn Defiler",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 135169,
+            "name": "Spirit Drain Totem",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 138281,
+            "name": "Faceless Corruptor",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1029353-faceless-corruptor.jpg"
+        }
+    ],
+    "abilities": [
+        {
+            "id": 265016,
+            "name": "Blood Harvest",
+            "castTime": 1.5,
+            "range": 100,
+            "icon": "ability_rogue_bloodsplatter"
+        },
+        {
+            "id": 265019,
+            "name": "Savage Cleave",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_gouge"
+        },
+        {
+            "id": 265081,
+            "name": "Warcry",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "ability_warrior_endlessrage"
+        },
+        {
+            "id": 265540,
+            "name": "Rotten Bile",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_creature_poison_02"
+        },
+        {
+            "id": 265377,
+            "name": "Hooked Snare",
+            "castTime": 1.5,
+            "range": 60,
+            "icon": "inv_misc_net_01"
+        },
+        {
+            "id": 265376,
+            "name": "Barbed Spear",
+            "castTime": 2,
+            "range": 60,
+            "icon": "inv_spear_07"
+        },
+        {
+            "id": 265091,
+            "name": "Gift of G'huun",
+            "castTime": 2,
+            "range": 40,
+            "icon": "sha_ability_rogue_bloodyeye_nightmare"
+        },
+        {
+            "id": 265089,
+            "name": "Dark Reconstitution",
+            "castTime": 3.5,
+            "range": 40,
+            "icon": "ability_deathwing_bloodcorruption_death"
+        },
+        {
+            "id": 260455,
+            "name": "Serrated Fangs",
+            "castTime": null,
+            "range": 8,
+            "icon": "inv_misc_monsterfang_02"
+        },
+        {
+            "id": 265568,
+            "name": "Dark Omen",
+            "castTime": 2,
+            "range": 500,
+            "icon": "inv_tikiman2_bloodtroll"
+        },
+        {
+            "id": 278755,
+            "name": "Harrowing Despair",
+            "castTime": 3.5,
+            "range": 0,
+            "icon": "spell_warlock_soulburn"
+        },
+        {
+            "id": 265668,
+            "name": "Wave of Decay",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_shadow_deathcoil"
+        },
+        {
+            "id": 278961,
+            "name": "Decaying Mind",
+            "castTime": 2.5,
+            "range": 40,
+            "icon": "spell_arcane_mindmastery"
+        },
+        {
+            "id": 266107,
+            "name": "Thirst For Blood",
+            "castTime": null,
+            "range": 0,
+            "icon": "ability_fixated_state_red"
+        },
+        {
+            "id": 266106,
+            "name": "Sonic Screech",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_vehicle_sonicshockwave"
+        },
+        {
+            "id": 272183,
+            "name": "Raise Dead",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "ability_creature_cursed_05"
+        },
+        {
+            "id": 266209,
+            "name": "Wicked Frenzy",
+            "castTime": 2.5,
+            "range": 30,
+            "icon": "spell_shadow_unholyfrenzy"
+        },
+        {
+            "id": 266265,
+            "name": "Wicked Embrace",
+            "castTime": null,
+            "range": 45,
+            "icon": "ability_warlock_eradication"
+        },
+        {
+            "id": 266201,
+            "name": "Bone Shield",
+            "castTime": null,
+            "range": 0,
+            "icon": "ability_deathknight_boneshield"
+        },
+        {
+            "id": 265487,
+            "name": "Shadow Bolt Volley",
+            "castTime": 3.5,
+            "range": 40,
+            "icon": "spell_shadow_shadowbolt"
+        },
+        {
+            "id": 265523,
+            "name": "Summon Spirit Drain Totem",
+            "castTime": 1,
+            "range": 0,
+            "icon": "ability_demonhunter_soulcleave2"
+        },
+        {
+            "id": 265511,
+            "name": "Spirit Drain",
+            "castTime": 3,
+            "range": 0,
+            "icon": "ability_demonhunter_soulcleave2"
+        },
+        {
+            "id": 272592,
+            "name": "Abyssal Reach",
+            "castTime": 1,
+            "range": 0,
+            "icon": "spell_priest_voidtendrils"
+        },
+        {
+            "id": 272609,
+            "name": "Maddening Gaze",
+            "castTime": 3,
+            "range": 200,
+            "icon": "spell_shadow_soulleech_3"
+        }
+    ]
+}

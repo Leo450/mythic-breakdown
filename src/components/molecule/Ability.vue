@@ -3,7 +3,6 @@
     import AbilityDoBadge from '@/components/molecule/AbilityDoBadge.vue'
     import AbilityIsBadge from '@/components/molecule/AbilityIsBadge.vue'
     import Icon from '@/components/atom/Icon.vue'
-    import { CAST } from '@/data/enum/Cast'
     import { I18n } from '@/modules/I18n'
 
     defineProps({

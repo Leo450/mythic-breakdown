@@ -1,4 +1,4 @@
-export const TARGET = {
+export const Target = {
     SELF: 'target:self',
     ALL: 'target:all',
     NONE: 'target:none',

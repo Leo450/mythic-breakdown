@@ -1,43 +1,47 @@
-export const ABILITY = {
+export const Ability = {
+    // Movement
+    AOE: {
+        INVISIBLE: 'ability:aoe:invisible',
+        SWIRL: 'ability:aoe:swirl',
+        CIRCLE: 'ability:aoe:circle',
+        POOL: 'ability:aoe:pool',
+    },
     FRONTAL: {
         STATIC: 'ability:frontal:static',
         MOVING: 'ability:frontal:moving',
     },
+    SPIN: 'ability:spin',
+    CHARGE: 'ability:charge',
+    DASH: 'ability:dash',
+    TRAP: 'ability:trap',
     CLOSEST: 'ability:closest',
+    FIXATE: 'ability:fixate',
+    KNOCKBACK: 'ability:knockback',
+    // Health
     HEAL: {
         CHUNK: 'ability:heal:chunk',
         OVER_TIME: 'ability:heal:over-time',
     },
-    DEBUFF: {
-        DEBUFF: 'ability:debuff',
-        REDUC_HEAL: 'ability:debuff:reduc-heal',
-        ABSORB_HEAL: 'ability:debuff:absorb-heal',
-        BLEED: 'ability:debuff:bleed',
-    },
-    BUFF: {
-        BUFF: 'ability:buff',
-        ENRAGE: 'ability:buff:enrage',
-    },
-    DASH: 'ability:dash',
-    AOE: {
-        SWIRL: 'ability:aoe:swirl',
-        CIRCLE: 'ability:aoe:circle',
-        PULSE: 'ability:aoe:pulse',
-    },
-    TRAP: 'ability:trap',
-    FIXATE: 'ability:fixate',
-    SILENCE: 'ability:silence',
-    SPIN: 'ability:spin',
-    CHARGE: 'ability:charge',
-    IMMOBILIZE: {
-        NET: 'ability:immobilize:net',
-    },
-    STUN: 'ability:stun',
-    DOT: 'ability:dot',
     DAMAGE: {
         CHUNK: 'ability:damage:chunk',
-        TICKS: 'ability:damage:ticks',
         OVER_TIME: 'ability:damage:over-time',
+        GROUP: 'ability:damage:group',
     },
+    TANKBUSTER: 'ability:tankbuster',
+    SHIELD: 'ability:shield',
+    REDUC_HEAL: 'ability:reduc-heal',
+    ABSORB_HEAL: 'ability:absorb-heal',
+    // Aura
+    DEBUFF: 'ability:debuff',
+    BUFF: 'ability:buff',
+    // Crowd Control
+    SLOW: 'ability:slow',
+    STUN: 'ability:stun',
+    ROOT: 'ability:root',
+    SILENCE: 'ability:silence',
+    // Others
+    SUMMON: 'ability:summon',
     CHANNEL: 'ability:channel',
+    AGGRO_RESET: 'ability:aggro-reset',
+    DISENGAGE: 'ability:disengage',
 }

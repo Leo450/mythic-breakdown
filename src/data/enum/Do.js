@@ -1,4 +1,4 @@
-export const DO = {
+export const Do = {
     DODGE: 'do:dodge',
     RUN_AWAY: 'do:run_away',
     INTERRUPT: 'do:interrupt',
@@ -12,4 +12,7 @@ export const DO = {
     DISENRAGE: 'do:disenrage',
     FREE: 'do:free',
     DELAY_DEATH: 'do:delay_death',
+    SPREAD: 'do:spread',
+    FOCUS: 'do:focus',
+    LOS: 'do:los',
 }

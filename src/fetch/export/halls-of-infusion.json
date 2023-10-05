@@ -1,0 +1,315 @@
+{
+    "npcs": [
+        {
+            "id": 190340,
+            "name": "Refti Defender",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190345,
+            "name": "Primalist Geomancer",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190342,
+            "name": "Containment Apparatus",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190362,
+            "name": "Dazzling Dragonfly",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190366,
+            "name": "Curious Swoglet",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 199037,
+            "name": "Primalist Shocktrooper",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190359,
+            "name": "Skulking Zealot",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190368,
+            "name": "Flamecaller Aymi",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190370,
+            "name": "Squallbringer Cyraz",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190401,
+            "name": "Gusting Proto-Dragon",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190404,
+            "name": "Subterranean Proto-Dragon",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190403,
+            "name": "Glacial Proto-Dragon",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190373,
+            "name": "Primalist Galesinger",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190371,
+            "name": "Primalist Earthshaker",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190377,
+            "name": "Primalist Icecaller",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190407,
+            "name": "Aqua Rager",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 190405,
+            "name": "Infuser Sariya",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        }
+    ],
+    "abilities": [
+        {
+            "id": 374339,
+            "name": "Demoralizing Shout",
+            "castTime": 2.5,
+            "range": 10,
+            "icon": "ability_warrior_warcry"
+        },
+        {
+            "id": 374073,
+            "name": "Seismic Slam",
+            "castTime": 1,
+            "range": 50,
+            "icon": "spell_shaman_earthquake"
+        },
+        {
+            "id": 374020,
+            "name": "Containment Beam",
+            "castTime": null,
+            "range": 45,
+            "icon": "spell_progenitor_beam"
+        },
+        {
+            "id": 374045,
+            "name": "Expulse",
+            "castTime": 3.5,
+            "range": 0,
+            "icon": "spell_fire_ragnaros_supernova"
+        },
+        {
+            "id": 374563,
+            "name": "Dazzle",
+            "castTime": 2.5,
+            "range": 10,
+            "icon": "ability_monk_chiswirl"
+        },
+        {
+            "id": 374389,
+            "name": "Gulp Swog Toxin",
+            "castTime": null,
+            "range": 50000,
+            "icon": "rogue_leeching_poison"
+        },
+        {
+            "id": 395694,
+            "name": "Elemental Focus",
+            "castTime": 2,
+            "range": 0,
+            "icon": "inv_10_elementalcombinedfoozles_lightning"
+        },
+        {
+            "id": 374615,
+            "name": "Cheap Shot",
+            "castTime": null,
+            "range": 5,
+            "icon": "ability_cheapshot"
+        },
+        {
+            "id": 374706,
+            "name": "Pyretic Burst",
+            "castTime": 2,
+            "range": 30,
+            "icon": "spell_fire_firebolt"
+        },
+        {
+            "id": 374724,
+            "name": "Molten Subduction",
+            "castTime": 2,
+            "range": 40,
+            "icon": "spell_nature_earthquake"
+        },
+        {
+            "id": 374699,
+            "name": "Cauterize",
+            "castTime": 3,
+            "range": 30,
+            "icon": "spell_burningsoul"
+        },
+        {
+            "id": 375079,
+            "name": "Whirling Fury",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "ability_whirlwind"
+        },
+        {
+            "id": 374863,
+            "name": "Gale Force Charge",
+            "castTime": null,
+            "range": 5,
+            "icon": "ability_skyreach_wind"
+        },
+        {
+            "id": 374823,
+            "name": "Zephyr's Call",
+            "castTime": 1.5,
+            "range": 0,
+            "icon": "inv_misc_volatileair"
+        },
+        {
+            "id": 391610,
+            "name": "Binding Winds",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_monk_rushingjadewind"
+        },
+        {
+            "id": 375348,
+            "name": "Gusting Breath",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_skyreach_four_wind"
+        },
+        {
+            "id": 391613,
+            "name": "Creeping Mold",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_creature_disease_03"
+        },
+        {
+            "id": 375327,
+            "name": "Tectonic Breath",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_earthen_pillar"
+        },
+        {
+            "id": 391610,
+            "name": "Binding Winds",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_monk_rushingjadewind"
+        },
+        {
+            "id": 375351,
+            "name": "Oceanic Breath",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_mage_waterjet"
+        },
+        {
+            "id": 376187,
+            "name": "Primal Affinity",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_nature_elementalprecision_1"
+        },
+        {
+            "id": 385141,
+            "name": "Thunderstorm",
+            "castTime": null,
+            "range": 45,
+            "icon": "spell_shaman_thunderstorm"
+        },
+        {
+            "id": 376187,
+            "name": "Primal Affinity",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_nature_elementalprecision_1"
+        },
+        {
+            "id": 375384,
+            "name": "Rumbling Earth",
+            "castTime": null,
+            "range": 100,
+            "icon": "spell_shaman_earthquake"
+        },
+        {
+            "id": 376187,
+            "name": "Primal Affinity",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_nature_elementalprecision_1"
+        },
+        {
+            "id": 376171,
+            "name": "Refreshing Tides",
+            "castTime": 3,
+            "range": 45,
+            "icon": "spell_nature_giftofthewaterspirit"
+        },
+        {
+            "id": 377384,
+            "name": "Boiling Rage",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_nature_shamanrage"
+        },
+        {
+            "id": 377341,
+            "name": "Tidal Divergence",
+            "castTime": 6,
+            "range": 0,
+            "icon": "spell_frost_summonwaterelemental_2"
+        },
+        {
+            "id": 377402,
+            "name": "Aqueous Barrier",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_shawaterelemental_reform"
+        },
+        {
+            "id": 390290,
+            "name": "Flash Flood",
+            "castTime": 3,
+            "range": 0,
+            "icon": "ability_mage_waterjet"
+        },
+        {
+            "id": 388882,
+            "name": "Inundate",
+            "castTime": 3,
+            "range": 30,
+            "icon": "spell_frost_frostbolt02"
+        },
+        {
+            "id": 393432,
+            "name": "Spear Flurry",
+            "castTime": 1.5,
+            "range": 5,
+            "icon": "ability_dualwield"
+        }
+    ]
+}

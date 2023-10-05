@@ -1,7 +1,7 @@
-import { TARGET } from '../enum/Target'
-import { ABILITY } from '../enum/Ability'
-import { CAST } from '../enum/Cast'
-import { DO } from '../enum/Do'
+import { Target } from '@/data/enum/Target'
+import { Ability } from '@/data/enum/Ability'
+import { Cast } from '@/data/enum/Cast'
+import { Do } from '@/data/enum/Do'
 
 export default {
     id: 9391,
@@ -14,27 +14,27 @@ export default {
                 {
                     // Blood Harvest
                     id: 265016,
-                    target: TARGET.RANDOM,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.CHARGE],
-                    do: [DO.HEAL]
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.CHARGE],
+                    do: [Do.HEAL]
                 },
                 {
                     // Savage Cleave
                     id: 265019,
-                    target: TARGET.NONE,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.FRONTAL.STATIC, ABILITY.DEBUFF.BLEED],
-                    do: [DO.DODGE],
+                    target: Target.NONE,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.FRONTAL.STATIC, Ability.DEBUFF, Ability.DAMAGE.OVER_TIME],
+                    do: [Do.DODGE],
                     important: true
                 },
                 {
                     // Warcry
                     id: 265081,
-                    target: TARGET.ALLY,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.BUFF.BUFF],
-                    do: [DO.DISENRAGE]
+                    target: Target.ALLY,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.BUFF],
+                    do: [Do.DISENRAGE]
                 }
             ]
         },
@@ -46,10 +46,10 @@ export default {
                 {
                     // Rotten Bile,
                     id: 265540,
-                    target: TARGET.RANDOM,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.FRONTAL.STATIC],
-                    do: [DO.STUN, DO.DODGE],
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.FRONTAL.STATIC],
+                    do: [Do.STUN, Do.DODGE],
                     important: true
                 }
             ]
@@ -62,18 +62,18 @@ export default {
                 {
                     // Hooked Snare,
                     id: 265377,
-                    target: TARGET.RANDOM,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.IMMOBILIZE.NET, ABILITY.DOT],
-                    do: [DO.FREE]
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.ROOT, Ability.DAMAGE.OVER_TIME],
+                    do: [Do.FREE]
                 },
                 {
                     // Barbed Spear
                     id: 265376,
-                    target: TARGET.RANDOM,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.DAMAGE.CHUNK],
-                    do: [DO.HEAL, DO.STUN]
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.DAMAGE.CHUNK],
+                    do: [Do.HEAL, Do.STUN]
                 }
             ]
         },
@@ -85,19 +85,19 @@ export default {
                 {
                     // Gift of G'huun
                     id: 265091,
-                    target: TARGET.ALLY,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.BUFF.ENRAGE],
-                    do: [DO.INTERRUPT, DO.DISENRAGE],
+                    target: Target.ALLY,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.BUFF],
+                    do: [Do.INTERRUPT, Do.DISENRAGE],
                     important: true
                 },
                 {
                     // Dark Reconstitution
                     id: 265089,
-                    target: TARGET.ALLY,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.HEAL.CHUNK],
-                    do: [DO.INTERRUPT],
+                    target: Target.ALLY,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.HEAL.CHUNK],
+                    do: [Do.INTERRUPT],
                     important: true
                 }
             ]
@@ -110,10 +110,10 @@ export default {
                 {
                     // Serrated Fangs
                     id: 260455,
-                    target: TARGET.NONE,
-                    cast: CAST.ON_DEATH,
-                    is: [ABILITY.DEBUFF.BLEED],
-                    do: [DO.DELAY_DEATH]
+                    target: Target.NONE,
+                    cast: Cast.ON_DEATH,
+                    is: [Ability.DAMAGE.OVER_TIME],
+                    do: [Do.DELAY_DEATH]
                 }
             ]
         },
@@ -125,18 +125,18 @@ export default {
                 {
                     // Dark Omen
                     id: 265568,
-                    target: TARGET.RANDOM,
-                    cast: CAST.NON_INTERRUPTIBLE,
-                    is: [ABILITY.CHANNEL, ABILITY.DAMAGE.TICKS, ABILITY.AOE.PULSE],
-                    do: [DO.HEAL, DO.RUN_AWAY]
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.CHANNEL, Ability.DAMAGE.OVER_TIME, Ability.AOE.CIRCLE],
+                    do: [Do.HEAL, Do.RUN_AWAY]
                 },
                 {
                     // Harrowing Despair
                     id: 278755,
-                    target: TARGET.ALL,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.DAMAGE.CHUNK],
-                    do: [DO.INTERRUPT]
+                    target: Target.ALL,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.DAMAGE.CHUNK],
+                    do: [Do.INTERRUPT]
                 }
             ]
         },
@@ -148,9 +148,10 @@ export default {
                 {
                     // Wave of Decay
                     id: 265668,
-                    target: TARGET.RANDOM,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.AOE.SWIRL],
+                    target: Target.RANDOM,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.AOE.SWIRL],
+                    do: [Do.INTERRUPT, Do.DODGE],
                     important: false
                 }
             ]
@@ -163,10 +164,10 @@ export default {
                 {
                     // Decaying Mind
                     id: 278961,
-                    target: TARGET.RANDOM,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.STUN, ABILITY.DEBUFF.ABSORB_HEAL],
-                    do: [DO.INTERRUPT],
+                    target: Target.RANDOM,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.STUN, Ability.ABSORB_HEAL],
+                    do: [Do.INTERRUPT],
                     important: true
                 }
             ]
@@ -179,18 +180,125 @@ export default {
                 {
                     // Thirst For Blood
                     id: 266107,
-                    target: TARGET.RANDOM,
-                    cast: CAST.INSTANT,
-                    is: [ABILITY.FIXATE],
-                    do: [DO.STUN, DO.RUN_AWAY]
+                    target: Target.RANDOM,
+                    cast: Cast.INSTANT,
+                    is: [Ability.FIXATE],
+                    do: [Do.STUN, Do.RUN_AWAY]
                 },
                 {
                     // Sonic Screech
                     id: 266106,
-                    target: TARGET.NONE,
-                    cast: CAST.INTERRUPTIBLE,
-                    is: [ABILITY.SILENCE],
-                    do: [DO.INTERRUPT]
+                    target: Target.NONE,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.SILENCE],
+                    do: [Do.INTERRUPT]
+                }
+            ]
+        },
+        {
+            // Fallen Deathspeaker
+            id: 134284,
+            area: 2,
+            abilities: [
+                {
+                    // Raise Dead,
+                    id: 272183,
+                    target: Target.NONE,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.SUMMON],
+                    do: [Do.INTERRUPT]
+                },
+                {
+                    // Wicked Frenzy
+                    id: 266209,
+                    target: Target.ALLY,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.BUFF],
+                    do: [Do.STUN]
+                },
+                {
+                    // Wicked Embrace
+                    id: 266265,
+                    target: Target.TANK,
+                    cast: Cast.INSTANT,
+                    is: [Ability.DAMAGE.OVER_TIME],
+                    do: [Do.DISPEL]
+                }
+            ]
+        },
+        {
+            // Reanimated Guardian
+            id: 133836,
+            area: 2,
+            abilities: [
+                {
+                    // Bone Shield
+                    id: 266201,
+                    target: Target.SELF,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.SHIELD],
+                    do: [Do.INTERRUPT]
+                }
+            ]
+        },
+        {
+            // Bloodsworn Defiler
+            id: 133912,
+            area: 2,
+            abilities: [
+                {
+                    // Shadow Bolt Volley
+                    id: 265487,
+                    target: Target.ALL,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.DAMAGE.CHUNK],
+                    do: [Do.INTERRUPT]
+                },
+                {
+                    // Summon Spirit Drain Totem
+                    id: 265523,
+                    target: Target.NONE,
+                    cast: Cast.INTERRUPTIBLE,
+                    is: [Ability.SUMMON],
+                    do: [Do.INTERRUPT]
+                }
+            ]
+        },
+        {
+            // Spirit Drain Totem
+            id: 135169,
+            area: 2,
+            abilities: [
+                {
+                    // Spirit Drain
+                    id: 265511,
+                    target: Target.NONE,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.STUN],
+                    do: [Do.RUN_AWAY]
+                }
+            ]
+        },
+        {
+            // Faceless Corruptor
+            id: 138281,
+            area: 3,
+            abilities: [
+                {
+                    // Abyssal Reach
+                    id: 272592,
+                    target: Target.NONE,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.SUMMON],
+                    do: [Do.RUN_AWAY]
+                },
+                {
+                    // Maddening Gaze
+                    id: 272609,
+                    target: Target.RANDOM,
+                    cast: Cast.NON_INTERRUPTIBLE,
+                    is: [Ability.FRONTAL.STATIC],
+                    do: [Do.DODGE]
                 }
             ]
         }

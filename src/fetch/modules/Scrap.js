@@ -1,10 +1,9 @@
-import fs from 'fs'
-
-import { importDungeonData, importDungeonExport, getExportFileMeta } from '../../modules/DungeonFiles'
-import { fetchAbilities } from '../modules/Ability'
-import { fetchNpcs } from '../modules/Npc'
+import { importDungeonData, importDungeonExport, writeDungeonExport } from '@/modules/FileManager'
+import { fetchAbilities } from './Ability'
+import { fetchNpcs } from './Npc'
 
 export const scrapDungeon = async (dungeonSlug, refresh = false, limit = 0) => {
+    console.log('Scraping dungeon', dungeonSlug)
     const dungeonData = await importDungeonData(dungeonSlug)
     let dungeonExport = await importDungeonExport(dungeonSlug)
 
@@ -18,7 +17,6 @@ export const scrapNpcs = async (dungeonExport, dungeonData, refresh = false, lim
     if (!dungeonExport.npcs) dungeonExport.npcs = []
 
     const missingIds = getMissingIds(dungeonData.npcs, dungeonExport.npcs, refresh, limit)
-    console.log(`Fetching ${missingIds.length} npcs`)
     const fetchedNpcs = await fetchNpcs(missingIds)
 
     dungeonExport.npcs = refresh ? fetchedNpcs : [...dungeonExport.npcs, ...fetchedNpcs]
@@ -32,25 +30,11 @@ export const scrapAbilities = async (dungeonExport, dungeonData, refresh = false
     // Get missing ability ids
     const abilities = dungeonData.npcs.map(t => t.abilities).flat()
     const missingIds = getMissingIds(abilities, dungeonExport.abilities, refresh, limit)
-    console.log(`Fetching ${missingIds.length} abilities`)
     const fetchedAbilities = await fetchAbilities(missingIds)
 
     dungeonExport.abilities = refresh ? fetchedAbilities : [...dungeonExport.abilities, ...fetchedAbilities]
 
     return dungeonExport
-}
-
-const writeDungeonExport = (dungeonSlug, data) => {
-    const fileMeta = getExportFileMeta(dungeonSlug)
-    console.log(`Writing ${fileMeta.filename}`)
-    fs.writeFile(
-        fileMeta.path,
-        JSON.stringify(data, null, 4),
-        (err) => {
-            if (err) throw err
-            console.log('Success!')
-        }
-    )
 }
 
 const getMissingIds = (dataCollection, exportCollection, refresh = false, limit = 0) => {

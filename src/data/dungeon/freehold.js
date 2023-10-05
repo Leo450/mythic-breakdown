@@ -1,7 +1,7 @@
-import { TARGET } from '../enum/Target'
-import { ABILITY } from '../enum/Ability'
-import { CAST } from '../enum/Cast'
-import { DO } from '../enum/Do'
+import { Target } from '@/data/enum/Target'
+import { Ability } from '@/data/enum/Ability'
+import { Cast } from '@/data/enum/Cast'
+import { Do } from '@/data/enum/Do'
 
 export default {
 	id: 9164,
@@ -14,10 +14,10 @@ export default {
 				{
 					// Brutal Backhand
 					id: 257426,
-					target: TARGET.RANDOM,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.FRONTAL.STATIC],
-					do: [DO.DODGE],
+					target: Target.RANDOM,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.FRONTAL.STATIC],
+					do: [Do.DODGE],
 					important: true
 				}
 			]
@@ -31,10 +31,10 @@ export default {
 				{
 					// Crippling Bite
 					id: 384575,
-					target: TARGET.MELEE,
-					cast: CAST.INSTANT,
-					is: [ABILITY.CLOSEST],
-					do: [DO.RUN_AWAY],
+					target: Target.MELEE,
+					cast: Cast.INSTANT,
+					is: [Ability.CLOSEST],
+					do: [Do.RUN_AWAY],
 				}
 			]
 		},
@@ -46,18 +46,18 @@ export default {
 				{
 					// Healing Balm
 					id: 257397,
-					target: TARGET.ALLY,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.HEAL.OVER_TIME],
-					do: [DO.INTERRUPT]
+					target: Target.ALLY,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.HEAL.OVER_TIME],
+					do: [Do.INTERRUPT]
 				},
 				{
 					// Infected Wound
 					id: 258323,
-					target: TARGET.TANK,
-					cast: CAST.INSTANT,
-					is: [ABILITY.DEBUFF.REDUC_HEAL],
-					do: [DO.DISPEL, DO.OUTHEAL]
+					target: Target.TANK,
+					cast: Cast.INSTANT,
+					is: [Ability.REDUC_HEAL],
+					do: [Do.DISPEL, Do.OUTHEAL]
 				}
 			]
 		},
@@ -69,10 +69,10 @@ export default {
 				{
 					// Sea Spout
 					id: 258777,
-					target: TARGET.RANDOM,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.AOE.SWIRL],
-					do: [DO.INTERRUPT]
+					target: Target.RANDOM,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.AOE.SWIRL],
+					do: [Do.INTERRUPT]
 				}
 			]
 		},
@@ -84,10 +84,10 @@ export default {
 				{
 					// Duelist Dash
 					id: 274400,
-					target: TARGET.RANDOM,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.DASH],
-					do: [DO.DODGE]
+					target: Target.RANDOM,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.DASH],
+					do: [Do.DODGE]
 				}
 			]
 		},
@@ -99,10 +99,10 @@ export default {
 				{
 					// Rat Traps
 					id: 274383,
-					target: TARGET.RANDOM,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.TRAP],
-					do: [DO.DODGE]
+					target: Target.RANDOM,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.TRAP],
+					do: [Do.DODGE]
 				}
 			]
 		},
@@ -114,10 +114,10 @@ export default {
 				{
 					// Blind Rage
 					id: 257739,
-					target: TARGET.RANDOM,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.FIXATE],
-					do: [DO.STUN],
+					target: Target.RANDOM,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.FIXATE],
+					do: [Do.STUN],
 					important: true
 				}
 			]
@@ -130,10 +130,10 @@ export default {
 				{
 					// Shattering Bellow
 					id: 257732,
-					target: TARGET.RANDOM,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.SILENCE],
-					do: [DO.INTERRUPT]
+					target: Target.RANDOM,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.SILENCE],
+					do: [Do.INTERRUPT]
 				}
 			]
 		},
@@ -145,10 +145,10 @@ export default {
 				{
 					// Slippery Suds
 					id: 274507,
-					target: TARGET.TANK,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.DEBUFF.DEBUFF],
-					do: [DO.DO_NOT_JUMP]
+					target: Target.TANK,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.DEBUFF],
+					do: [Do.DO_NOT_JUMP]
 				}
 			]
 		},
@@ -160,10 +160,10 @@ export default {
 				{
 					// Goin' Bananas
 					id: 257756,
-					target: TARGET.NONE,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.SPIN],
-					do: [DO.DODGE]
+					target: Target.NONE,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.SPIN],
+					do: [Do.DODGE]
 				}
 			]
 		},
@@ -175,10 +175,10 @@ export default {
 				{
 					// Frost Blast
 					id: 257784,
-					target: TARGET.RANDOM,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.FRONTAL.STATIC],
-					do: [DO.INTERRUPT]
+					target: Target.RANDOM,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.FRONTAL.STATIC],
+					do: [Do.INTERRUPT]
 				}
 			]
 		},
@@ -190,10 +190,10 @@ export default {
 				{
 					// Painful Motivation
 					id: 257899,
-					target: TARGET.ALLY,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.BUFF.BUFF],
-					do: [DO.DO_NOT_INTERRUPT],
+					target: Target.ALLY,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.BUFF],
+					do: [Do.DO_NOT_INTERRUPT],
 					important: true
 				}
 			]
@@ -206,10 +206,10 @@ export default {
 				{
 					// Blade Barrage
 					id: 257870,
-					target: TARGET.NONE,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.SPIN],
-					do: [DO.STUN]
+					target: Target.NONE,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.SPIN],
+					do: [Do.STUN]
 				}
 			]
 		},
@@ -221,10 +221,10 @@ export default {
 				{
 					// Thundering Squall
 					id: 257736,
-					target: TARGET.SELF,
-					cast: CAST.INTERRUPTIBLE,
-					is: [ABILITY.AOE.CIRCLE],
-					do: [DO.INTERRUPT]
+					target: Target.SELF,
+					cast: Cast.INTERRUPTIBLE,
+					is: [Ability.AOE.CIRCLE],
+					do: [Do.INTERRUPT]
 				}
 			]
 		},
@@ -236,10 +236,10 @@ export default {
 				{
 					// Oiled Blade
 					id: 257908,
-					target: TARGET.TANK,
-					cast: CAST.NON_INTERRUPTIBLE,
-					is: [ABILITY.DEBUFF.REDUC_HEAL],
-					do: [DO.DEFENSIVE]
+					target: Target.TANK,
+					cast: Cast.NON_INTERRUPTIBLE,
+					is: [Ability.REDUC_HEAL],
+					do: [Do.DEFENSIVE]
 				}
 			]
 		}

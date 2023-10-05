@@ -1,4 +1,4 @@
-import en from '../traductions/en.js'
+import en from '@/i18n/en'
 
 let instance = null
 

@@ -1,0 +1,268 @@
+{
+    "npcs": [
+        {
+            "id": 193293,
+            "name": "Qalashi Warden",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1071539-qalashi-warden.jpg"
+        },
+        {
+            "id": 192787,
+            "name": "Qalashi Spinecrusher",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 192788,
+            "name": "Qalashi Thaumaturge",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 192786,
+            "name": "Qalashi Plunderer",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189227,
+            "name": "Qalashi Hunter",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189266,
+            "name": "Qalashi Trainee",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189235,
+            "name": "Overseer Lahar",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1071740-overseer-lahar.jpg"
+        },
+        {
+            "id": 189265,
+            "name": "Qalashi Bonetender",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189472,
+            "name": "Qalashi Lavabearer",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189464,
+            "name": "Qalashi Irontorch",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189467,
+            "name": "Qalashi Bonesplitter",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189466,
+            "name": "Irontorch Commander",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 189471,
+            "name": "Qalashi Blacksmith",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 194816,
+            "name": "Forgewrought Monstrosity",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 193291,
+            "name": "Apex Blazewing",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1086489-apex-blazewing.jpg"
+        },
+        {
+            "id": 193944,
+            "name": "Qalashi Lavamancer",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        }
+    ],
+    "abilities": [
+        {
+            "id": 384597,
+            "name": "Blazing Slash",
+            "castTime": 1,
+            "range": 8,
+            "icon": "inv_knife_1h_bwdraid_d_01"
+        },
+        {
+            "id": 382708,
+            "name": "Volcanic Guard",
+            "castTime": 3,
+            "range": 30,
+            "icon": "inv_shield_1h_dragondungeon_c_01"
+        },
+        {
+            "id": 378847,
+            "name": "Brutal Strike",
+            "castTime": 2,
+            "range": 25,
+            "icon": "ability_smash"
+        },
+        {
+            "id": 378818,
+            "name": "Magma Conflagration",
+            "castTime": 1,
+            "range": 45,
+            "icon": "spell_shaman_lavasurge"
+        },
+        {
+            "id": 378282,
+            "name": "Molten Core",
+            "castTime": 2.5,
+            "range": 100,
+            "icon": "spell_fire_lavaspawn"
+        },
+        {
+            "id": 378827,
+            "name": "Explosive Concoction",
+            "castTime": 2.5,
+            "range": 60,
+            "icon": "trade_alchemy_dpotion_a16"
+        },
+        {
+            "id": 372566,
+            "name": "Bold Ambush",
+            "castTime": null,
+            "range": 45,
+            "icon": "spell_warrior_wildstrike"
+        },
+        {
+            "id": 372561,
+            "name": "Binding Spear",
+            "castTime": 3,
+            "range": 100,
+            "icon": "inv_spear_11"
+        },
+        {
+            "id": 372311,
+            "name": "Magma Fist",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_shaman_improvedfirenova"
+        },
+        {
+            "id": 376186,
+            "name": "Eruptive Crush",
+            "castTime": 3,
+            "range": 50000,
+            "icon": "ability_xavius_crushingshadows"
+        },
+        {
+            "id": 395427,
+            "name": "Burning Roar",
+            "castTime": 3,
+            "range": 8,
+            "icon": "spell_fire_incinerate"
+        },
+        {
+            "id": 372461,
+            "name": "Imbued Magma",
+            "castTime": null,
+            "range": 25,
+            "icon": "inv_mace_2h_artifactsilverhand_d_03"
+        },
+        {
+            "id": 372223,
+            "name": "Mending Clay",
+            "castTime": 3,
+            "range": 10,
+            "icon": "inv_misc_volatilefire"
+        },
+        {
+            "id": 394971,
+            "name": "Throw Lava",
+            "castTime": null,
+            "range": 50000,
+            "icon": "ability_warlock_backdraft"
+        },
+        {
+            "id": 372201,
+            "name": "Scorching Breath",
+            "castTime": 2,
+            "range": 30,
+            "icon": "ability_monk_breathoffire"
+        },
+        {
+            "id": 384161,
+            "name": "Mote of Combustion",
+            "castTime": 2,
+            "range": 50,
+            "icon": "inv_elemental_mote_fire01"
+        },
+        {
+            "id": 372224,
+            "name": "Dragonbone Axe",
+            "castTime": null,
+            "range": 100,
+            "icon": "inv_axe_1h_pvpcataclysms3_c_01"
+        },
+        {
+            "id": 372262,
+            "name": "Pierce Marrow",
+            "castTime": 2,
+            "range": 8,
+            "icon": "ability_maldraxxus_rogue"
+        },
+        {
+            "id": 372543,
+            "name": "Scorching Fusillade",
+            "castTime": null,
+            "range": 100,
+            "icon": "inv_gizmo_supersappercharge"
+        },
+        {
+            "id": 372296,
+            "name": "Conflagrant Battery",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_shadow_rainoffire"
+        },
+        {
+            "id": 384623,
+            "name": "Forgestomp",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_shaman_improvedfirenova"
+        },
+        {
+            "id": 372971,
+            "name": "Reverberating Slam",
+            "castTime": 2,
+            "range": 20,
+            "icon": "inv_mace_1h_blacksmithing_b_01_black"
+        },
+        {
+            "id": 384663,
+            "name": "Forgewrought Fury",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_fire_selfdestruct"
+        },
+        {
+            "id": 381663,
+            "name": "Candescent Tempest",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_fire_burnout"
+        },
+        {
+            "id": 382791,
+            "name": "Molten Barrier",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_mage_moltenarmor"
+        },
+        {
+            "id": 383651,
+            "name": "Molten Army",
+            "castTime": 1,
+            "range": 0,
+            "icon": "spell_fire_lavaspawn"
+        }
+    ]
+}

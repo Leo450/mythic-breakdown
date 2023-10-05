@@ -1,9 +1,13 @@
-import { importDungeonData, importDungeonExport } from '../modules/DungeonFiles'
+import { importDungeonData, importDungeonExport } from '@/modules/FileManager'
 
 export const getDungeonData = async (dungeonSlug) => {
     const dungeonData = await importDungeonData(dungeonSlug)
     const dungeonExport = await importDungeonExport(dungeonSlug)
-    enrichAbilities(dungeonData, dungeonExport)
+    try {
+        enrichAbilities(dungeonData, dungeonExport)
+    } catch (e) {
+        return null
+    }
     return dungeonData
 }
 

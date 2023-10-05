@@ -1,13 +1,20 @@
 import { parse } from 'node-html-parser'
-import axios from 'axios'
 
 export const fetchAbility = async (abilityId, locale = 'en') => {
-    console.log(`Fetching ability ${abilityId}`)
     const localePath = locale === 'en' ? '' : locale + '/'
 
     try {
-        const response = await axios.get(`https://wowhead.com/${localePath}spell=${abilityId}`)
-        const root = parse(response.data)
+        console.log('Fetching ability', abilityId)
+        const response = await fetch(`https://wowhead.com/${localePath}spell=${abilityId}`, {
+            headers: {
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+                'Cache-Control': 'max-age=0',
+                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+            }
+        })
+        const root = parse(await response.text())
 
         const ability = {}
         ability.id = abilityId
@@ -19,17 +26,17 @@ export const fetchAbility = async (abilityId, locale = 'en') => {
         return ability
 
     } catch (e) {
-        console.log(`Error fetching ability ${abilityId}`)
-        console.error(e)
+        console.error(`Failed to fetch ability ${abilityId}:`, `https://wowhead.com/${localePath}spell=${abilityId}`)
         return null
     }
 }
 
 export const fetchAbilities = async (abilityIds, locale = 'en') => {
+    console.log(`Fetching ${abilityIds.length} abilities`)
     const abilities = []
     for (const abilityId of abilityIds) {
         const ability = await fetchAbility(abilityId, locale)
-        abilities.push(ability)
+        if (ability) abilities.push(ability)
     }
     return abilities
 }

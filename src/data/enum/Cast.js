@@ -1,4 +1,4 @@
-export const CAST = {
+export const Cast = {
     INTERRUPTIBLE: 'cast:interruptible',
     NON_INTERRUPTIBLE: 'cast:non-interruptible',
     INSTANT: 'cast:instant',

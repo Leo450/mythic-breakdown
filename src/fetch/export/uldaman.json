@@ -1,0 +1,256 @@
+{
+    "npcs": [
+        {
+            "id": 184022,
+            "name": "Stonevault Geomancer",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184020,
+            "name": "Hulking Berserker",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1072194-hulking-berserker.jpg"
+        },
+        {
+            "id": 184023,
+            "name": "Vicious Basilisk",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1072199-vicious-basilisk.jpg"
+        },
+        {
+            "id": 184019,
+            "name": "Burly Rock-Thrower",
+            "image": "https://wow.zamimg.com/uploads/screenshots/normal/1072214-burly-rock-thrower.jpg"
+        },
+        {
+            "id": 184130,
+            "name": "Earthen Custodian",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184319,
+            "name": "Refti Custodian",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 186420,
+            "name": "Earthen Weaver",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184132,
+            "name": "Earthen Warder",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184107,
+            "name": "Runic Protector",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184301,
+            "name": "Cavern Seeker",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184303,
+            "name": "Skittering Crawler",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184131,
+            "name": "Earthen Guardian",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184335,
+            "name": "Infinite Agent",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184300,
+            "name": "Ebonstone Golem",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        },
+        {
+            "id": 184331,
+            "name": "Infinite Timereaver",
+            "image": "https://wow.zamimg.com/images/logos/share-icon.png"
+        }
+    ],
+    "abilities": [
+        {
+            "id": 369675,
+            "name": "Chain Lightning",
+            "castTime": 3,
+            "range": 40,
+            "icon": "spell_nature_chainlightning"
+        },
+        {
+            "id": 369674,
+            "name": "Stone Spike",
+            "castTime": 2.5,
+            "range": 25,
+            "icon": "6bf_blackrock_nova"
+        },
+        {
+            "id": 369818,
+            "name": "Diseased Bite",
+            "castTime": 1,
+            "range": 25,
+            "icon": "spell_shadow_plaguecloud"
+        },
+        {
+            "id": 369828,
+            "name": "Chomp",
+            "castTime": 1,
+            "range": 8,
+            "icon": "ability_druid_ferociousbite"
+        },
+        {
+            "id": 369853,
+            "name": "Throw Rock",
+            "castTime": 2,
+            "range": 100,
+            "icon": "inv_elemental_primal_earth"
+        },
+        {
+            "id": 369409,
+            "name": "Cleave",
+            "castTime": 1,
+            "range": 8,
+            "icon": "ability_warrior_cleave"
+        },
+        {
+            "id": 377732,
+            "name": "Jagged Bite",
+            "castTime": 1.5,
+            "range": 8,
+            "icon": "inv_artifact_corruptedbloodofzakajz"
+        },
+        {
+            "id": 377738,
+            "name": "Ancient Power",
+            "castTime": null,
+            "range": 0,
+            "icon": "shaman_talent_unleashedfury"
+        },
+        {
+            "id": 369465,
+            "name": "Hail of Stone",
+            "castTime": 1,
+            "range": 0,
+            "icon": "6bf_blackrock_nova"
+        },
+        {
+            "id": 369399,
+            "name": "Stone Bolt",
+            "castTime": 2,
+            "range": 30,
+            "icon": "inv_ore_blackrock_ore"
+        },
+        {
+            "id": 375276,
+            "name": "Earthen Ward",
+            "castTime": null,
+            "range": 0,
+            "icon": "inv_skinning_80_shimmerscale"
+        },
+        {
+            "id": 369365,
+            "name": "Curse of Stone",
+            "castTime": 3,
+            "range": 0,
+            "icon": "inv_zulgurubtrinket"
+        },
+        {
+            "id": 369368,
+            "name": "Stone Eruption",
+            "castTime": null,
+            "range": 100,
+            "icon": "icon_upgradestone_undead_legendary"
+        },
+        {
+            "id": 369335,
+            "name": "Fissuring Slam",
+            "castTime": 1.5,
+            "range": 60,
+            "icon": "ability_shockwave"
+        },
+        {
+            "id": 369328,
+            "name": "Earthquake",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_nature_earthquake"
+        },
+        {
+            "id": 369411,
+            "name": "Sonic Burst",
+            "castTime": 3,
+            "range": 100,
+            "icon": "ability_vehicle_sonicshockwave"
+        },
+        {
+            "id": 369417,
+            "name": "Venomous Fangs",
+            "castTime": null,
+            "range": 0,
+            "icon": "spell_nature_nullifypoison"
+        },
+        {
+            "id": 381593,
+            "name": "Thunderous Clap",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_earthenfury_giftofearth"
+        },
+        {
+            "id": 382696,
+            "name": "Bulwark Slam",
+            "castTime": 1.5,
+            "range": 8,
+            "icon": "ability_warrior_shieldmastery"
+        },
+        {
+            "id": 382578,
+            "name": "Blessing of Tyr",
+            "castTime": 2.5,
+            "range": 0,
+            "icon": "ability_titankeeper_cleansingorb"
+        },
+        {
+            "id": 377486,
+            "name": "Time Blade",
+            "castTime": 1,
+            "range": 8,
+            "icon": "inv_weapon_shortblade_75"
+        },
+        {
+            "id": 377500,
+            "name": "Hasten",
+            "castTime": 2,
+            "range": 0,
+            "icon": "spell_mage_altertime_active"
+        },
+        {
+            "id": 377510,
+            "name": "Stolen Time",
+            "castTime": null,
+            "range": 0,
+            "icon": "ability_bossmagistrix_timewarp2"
+        },
+        {
+            "id": 369823,
+            "name": "Spiked Carapace",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_demonhunter_demonspikes2"
+        },
+        {
+            "id": 369811,
+            "name": "Brutal Slam",
+            "castTime": 2,
+            "range": 0,
+            "icon": "ability_warrior_decisivestrike"
+        }
+    ]
+}

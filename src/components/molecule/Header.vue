@@ -1,3 +1,11 @@
+<script setup>
+    import { Dungeon } from '@/data/enum/Dungeon'
+    import Icon from '@/components/atom/Icon.vue'
+    import { I18n } from '@/modules/I18n'
+
+    const i18n = I18n()
+</script>
+
 <template>
     <div class="main-header flex items-center justify-center">
         <Icon
@@ -8,10 +16,11 @@
         />
         <menu class="main-menu flex justify-center">
             <RouterLink
-                :to="{ name: 'dungeon', params: { dungeon: 'freehold' } }"
+                v-for="slug in Dungeon"
+                :to="{ name: 'dungeon', params: { dungeon: slug } }"
                 class="main-menu__item p-4 text-lg"
             >
-                Freehold
+                {{ i18n.t(`dungeon:${slug}`) }}
             </RouterLink>
         </menu>
     </div>
@@ -29,6 +38,3 @@
         }
     }
 </style>
-<script setup>
-import Icon from '@/components/atom/Icon.vue'
-</script>

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import DungeonView from '@/views/DungeonView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
-import { Dungeons } from '@/data/dungeon'
+import { DungeonSlug } from '@/data/enum/Dungeon'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,7 +12,7 @@ const router = createRouter({
             component: DungeonView,
             props: true,
             beforeEnter: async (to) => {
-                if (!Dungeons.includes(to.params.dungeon)) return { name: 'not-found' }
+                if (!DungeonSlug.includes(to.params.dungeon)) return { name: 'not-found' }
             }
         },
         {

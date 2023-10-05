@@ -1,5 +1,5 @@
 <script setup>
-    import { onMounted, ref } from 'vue'
+    import { ref, watch } from 'vue'
     import { getDungeonData } from '@/data'
     import { I18n } from '@/modules/I18n'
     import Npc from '@/components/molecule/Npc.vue'
@@ -14,16 +14,18 @@
     const dungeonId = ref(null)
     const npcByArea = ref([])
 
-    onMounted(async () => {
+    watch(() => props.dungeon, async () => {
         const dungeonData = await getDungeonData(props.dungeon)
+        if (!dungeonData) return
         dungeonId.value = dungeonData.id
+        npcByArea.value = []
         dungeonData.npcs.forEach((npc) => {
             if (!npcByArea.value[npc.area]) {
                 npcByArea.value[npc.area] = []
             }
             npcByArea.value[npc.area].push(npc)
         })
-    })
+    }, { immediate: true })
 </script>
 
 <template>
